@@ -10,7 +10,7 @@ class SampleController {
 
     @GetMapping("/sample")
     fun sample(): String {
-        return "sample"
+        return "sample_deploy_test"
     }
 
     @PostMapping("/sample")
