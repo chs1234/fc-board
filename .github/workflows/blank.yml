@@ -46,6 +46,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         region: ${{ env.AWS_REGION }}
         application_name: fc-sng-board
-        envirionment_name: Fc-sng-board-env
+        environment_name: Fc-sng-board-env
         version_label: github-action-${{ steps.current-time.outputs.formattedTime }}
         deployment_package: deploy/deploy.zip
